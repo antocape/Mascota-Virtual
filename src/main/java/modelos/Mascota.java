@@ -71,6 +71,7 @@ public class Mascota {
     }
     public void causaDeMuerte() {causaDeMuerte.add(String.valueOf(causaDeMuerte));}
 
+
    // public void confeccionarActa() { String.valueOf(actaNacimiento);}
     //getter
 

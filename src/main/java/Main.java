@@ -31,7 +31,7 @@ public class Main {
 
         System.out.println("La cantidad de DukeMascota creadas es: " + DukeMascota.getCount());
         System.out.println("La cantidad de LastMascotitas creadas es: " + LastMascotita.getCount());
-        System.out.println("La cantidad de LastMascotitas creadas es: " + MiMascota.getCount());
+        System.out.println("La cantidad de MiMascotitas creadas es: " + MiMascota.getCount());
 
 
         persistence.guardar(duke);
@@ -76,10 +76,12 @@ public class Main {
         System.out.println("Duke ya evacuó y tiene " + duke.getComidasIngeridas() + " comidas en su interior.");
 
         //CAUSA DE MUERTE
-
-
+        System.out.println(duke.isLive());
         System.out.println("La mascota se murió " + duke.getCausaDeMuerte());
-        duke.causaDeMuerte();
+
+
+  //     System.out.println("La mascota se murió " + duke.getCausaDeMuerte());
+  //      duke.causaDeMuerte();
 
         //ACTAS
 
